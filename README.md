@@ -5,6 +5,13 @@ When I finish this project, I expect to mainly do Pwn and Reverse Engineering (t
 # Setup
 `brew install verilator`
 
+# You Should Know
+- https://ja.wikipedia.org/wiki/VHDL
+
+# Doc
+- https://zipcpu.com/blog/2017/06/21/looking-at-verilator.html
+- 
+
 # ⚠️caution
 I'm currently using Mac OS.
 Keep in mind that we will be updating the environment to Linux(Ubuntu or Arch) soon (the content of the README may change)
