@@ -10,7 +10,8 @@ When I finish this project, I expect to mainly do Pwn and Reverse Engineering (t
 
 # Doc
 - https://zipcpu.com/blog/2017/06/21/looking-at-verilator.html
-- 
+- https://www.veripool.org/projects/verilator/wiki/Manual-verilator#EXAMPLE-C-EXECUTION
+- https://zipcpu.com/blog/2017/06/21/looking-at-verilator.html
 
 # ⚠️caution
 I'm currently using Mac OS.

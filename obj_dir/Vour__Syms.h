@@ -4,16 +4,16 @@
 // Internal details; most calling programs do not need this header,
 // unless using verilator public meta comments.
 
-#ifndef _VCOUNTER_4BIT__SYMS_H_
-#define _VCOUNTER_4BIT__SYMS_H_  // guard
+#ifndef _VOUR__SYMS_H_
+#define _VOUR__SYMS_H_  // guard
 
-#include "verilated.h"
+#include "verilated_heavy.h"
 
 // INCLUDE MODULE CLASSES
-#include "Vcounter_4bit.h"
+#include "Vour.h"
 
 // SYMS CLASS
-class Vcounter_4bit__Syms : public VerilatedSyms {
+class Vour__Syms : public VerilatedSyms {
   public:
     
     // LOCAL STATE
@@ -21,11 +21,11 @@ class Vcounter_4bit__Syms : public VerilatedSyms {
     bool __Vm_didInit;
     
     // SUBCELL STATE
-    Vcounter_4bit*                 TOPp;
+    Vour*                          TOPp;
     
     // CREATORS
-    Vcounter_4bit__Syms(Vcounter_4bit* topp, const char* namep);
-    ~Vcounter_4bit__Syms() {}
+    Vour__Syms(Vour* topp, const char* namep);
+    ~Vour__Syms() {}
     
     // METHODS
     inline const char* name() { return __Vm_namep; }

@@ -5,47 +5,34 @@
 // The class here is then constructed to instantiate the design.
 // See the Verilator manual for examples.
 
-#ifndef _VCOUNTER_4BIT_H_
-#define _VCOUNTER_4BIT_H_  // guard
+#ifndef _VOUR_H_
+#define _VOUR_H_  // guard
 
-#include "verilated.h"
+#include "verilated_heavy.h"
 
 //==========
 
-class Vcounter_4bit__Syms;
+class Vour__Syms;
 
 //----------
 
-VL_MODULE(Vcounter_4bit) {
+VL_MODULE(Vour) {
   public:
-    
-    // PORTS
-    // The application code writes and reads these signals to
-    // propagate new values into/out from the Verilated model.
-    VL_IN8(clk,0,0);
-    VL_IN8(reset_n,0,0);
-    VL_IN8(en,0,0);
-    VL_OUT8(cnt,3,0);
-    
-    // LOCAL VARIABLES
-    // Internals; generally not touched by application code
-    CData/*0:0*/ __Vclklast__TOP__clk;
-    CData/*0:0*/ __Vclklast__TOP__reset_n;
     
     // INTERNAL VARIABLES
     // Internals; generally not touched by application code
-    Vcounter_4bit__Syms* __VlSymsp;  // Symbol table
+    Vour__Syms* __VlSymsp;  // Symbol table
     
     // CONSTRUCTORS
   private:
-    VL_UNCOPYABLE(Vcounter_4bit);  ///< Copying not allowed
+    VL_UNCOPYABLE(Vour);  ///< Copying not allowed
   public:
     /// Construct the model; called by application code
     /// The special name  may be used to make a wrapper with a
     /// single model invisible with respect to DPI scope names.
-    Vcounter_4bit(const char* name = "TOP");
+    Vour(const char* name = "TOP");
     /// Destroy the model; called (often implicitly) by application code
-    ~Vcounter_4bit();
+    ~Vour();
     
     // API METHODS
     /// Evaluate the model.  Application must call when inputs change.
@@ -60,23 +47,23 @@ VL_MODULE(Vcounter_4bit) {
     
     // INTERNAL METHODS
   private:
-    static void _eval_initial_loop(Vcounter_4bit__Syms* __restrict vlSymsp);
+    static void _eval_initial_loop(Vour__Syms* __restrict vlSymsp);
   public:
-    void __Vconfigure(Vcounter_4bit__Syms* symsp, bool first);
+    void __Vconfigure(Vour__Syms* symsp, bool first);
   private:
-    static QData _change_request(Vcounter_4bit__Syms* __restrict vlSymsp);
-    static QData _change_request_1(Vcounter_4bit__Syms* __restrict vlSymsp);
+    static QData _change_request(Vour__Syms* __restrict vlSymsp);
+    static QData _change_request_1(Vour__Syms* __restrict vlSymsp);
     void _ctor_var_reset() VL_ATTR_COLD;
   public:
-    static void _eval(Vcounter_4bit__Syms* __restrict vlSymsp);
+    static void _eval(Vour__Syms* __restrict vlSymsp);
   private:
 #ifdef VL_DEBUG
     void _eval_debug_assertions();
 #endif  // VL_DEBUG
   public:
-    static void _eval_initial(Vcounter_4bit__Syms* __restrict vlSymsp) VL_ATTR_COLD;
-    static void _eval_settle(Vcounter_4bit__Syms* __restrict vlSymsp) VL_ATTR_COLD;
-    static void _sequent__TOP__1(Vcounter_4bit__Syms* __restrict vlSymsp);
+    static void _eval_initial(Vour__Syms* __restrict vlSymsp) VL_ATTR_COLD;
+    static void _eval_settle(Vour__Syms* __restrict vlSymsp) VL_ATTR_COLD;
+    static void _initial__TOP__1(Vour__Syms* __restrict vlSymsp) VL_ATTR_COLD;
 } VL_ATTR_ALIGNED(VL_CACHE_LINE_BYTES);
 
 //----------

@@ -1,13 +1,13 @@
 // Verilated -*- C++ -*-
 // DESCRIPTION: Verilator output: Symbol table implementation internals
 
-#include "Vcounter_4bit__Syms.h"
-#include "Vcounter_4bit.h"
+#include "Vour__Syms.h"
+#include "Vour.h"
 
 
 
 // FUNCTIONS
-Vcounter_4bit__Syms::Vcounter_4bit__Syms(Vcounter_4bit* topp, const char* namep)
+Vour__Syms::Vour__Syms(Vour* topp, const char* namep)
     // Setup locals
     : __Vm_namep(namep)
     , __Vm_didInit(false)
