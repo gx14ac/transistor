@@ -5,9 +5,6 @@ When I finish this project, I expect to mainly do Pwn and Reverse Engineering (t
 # Setup
 `brew install verilator`
 
-# You Should Know
-- https://ja.wikipedia.org/wiki/VHDL
-
 # Doc
 - https://zipcpu.com/blog/2017/06/21/looking-at-verilator.html
 - https://www.veripool.org/projects/verilator/wiki/Manual-verilator#EXAMPLE-C-EXECUTION
