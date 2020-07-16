@@ -4,16 +4,16 @@
 // Internal details; most calling programs do not need this header,
 // unless using verilator public meta comments.
 
-#ifndef _VOUR__SYMS_H_
-#define _VOUR__SYMS_H_  // guard
+#ifndef _VBLINKING__SYMS_H_
+#define _VBLINKING__SYMS_H_  // guard
 
-#include "verilated_heavy.h"
+#include "verilated.h"
 
 // INCLUDE MODULE CLASSES
-#include "Vour.h"
+#include "Vblinking.h"
 
 // SYMS CLASS
-class Vour__Syms : public VerilatedSyms {
+class Vblinking__Syms : public VerilatedSyms {
   public:
     
     // LOCAL STATE
@@ -21,11 +21,11 @@ class Vour__Syms : public VerilatedSyms {
     bool __Vm_didInit;
     
     // SUBCELL STATE
-    Vour*                          TOPp;
+    Vblinking*                     TOPp;
     
     // CREATORS
-    Vour__Syms(Vour* topp, const char* namep);
-    ~Vour__Syms() {}
+    Vblinking__Syms(Vblinking* topp, const char* namep);
+    ~Vblinking__Syms() {}
     
     // METHODS
     inline const char* name() { return __Vm_namep; }
