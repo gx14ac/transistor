@@ -9,13 +9,21 @@ When I finish this project, I expect to mainly do Pwn and Reverse Engineering (t
 
 ## for Ubuntu
 `sudo apt-get install git make autoconf g++ flex bison`
+
 `sudo apt-get install libfl2  # Ubuntu only (ignore if gives error)`
+
 `sudo apt-get install libfl-dev  # Ubuntu only (ignore if gives error)`
+
 `git clone https://github.com/verilator/verilator`
+
 `cd verilator`
+
 `autoconf`
+
 `./configure`
+
 `make`
+
 `sudo make install`
 
 # Doc
