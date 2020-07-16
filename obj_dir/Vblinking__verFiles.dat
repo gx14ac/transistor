@@ -1,0 +1,13 @@
+# DESCRIPTION: Verilator output: Timestamp data for --skip-identical.  Delete at will.
+C "-Wall --cc blinking.v --exe --build sim_main.cpp"
+S   9370744   821943  1594859512   963035101  1594859512   963035101 "/usr/local/bin/verilator_bin"
+S       323   943552  1594861309   879301166  1594861309   879301166 "blinking.v"
+T      4480   943548  1594861311   447317776  1594861311   447317776 "obj_dir/Vblinking.cpp"
+T      2985   943546  1594861311   447317776  1594861311   447317776 "obj_dir/Vblinking.h"
+T      1783   943550  1594861311   447317776  1594861311   447317776 "obj_dir/Vblinking.mk"
+T      2511   943547  1594861311   447317776  1594861311   447317776 "obj_dir/Vblinking__Slow.cpp"
+T       554   913241  1594861311   447317776  1594861311   447317776 "obj_dir/Vblinking__Syms.cpp"
+T       802   943545  1594861311   447317776  1594861311   447317776 "obj_dir/Vblinking__Syms.h"
+T       272   943551  1594861311   447317776  1594861311   447317776 "obj_dir/Vblinking__ver.d"
+T         0        0  1594861311   447317776  1594861311   447317776 "obj_dir/Vblinking__verFiles.dat"
+T      1558   943549  1594861311   447317776  1594861311   447317776 "obj_dir/Vblinking_classes.mk"

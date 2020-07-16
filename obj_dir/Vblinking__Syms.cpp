@@ -1,13 +1,13 @@
 // Verilated -*- C++ -*-
 // DESCRIPTION: Verilator output: Symbol table implementation internals
 
-#include "Vour__Syms.h"
-#include "Vour.h"
+#include "Vblinking__Syms.h"
+#include "Vblinking.h"
 
 
 
 // FUNCTIONS
-Vour__Syms::Vour__Syms(Vour* topp, const char* namep)
+Vblinking__Syms::Vblinking__Syms(Vblinking* topp, const char* namep)
     // Setup locals
     : __Vm_namep(namep)
     , __Vm_didInit(false)
