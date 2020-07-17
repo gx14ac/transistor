@@ -1,11 +1,13 @@
 # Why?
 EN
+
 I've been a NASM, C, C++, Swift, Kotlin, Golang, Rust, Dart, AWS, GCP, Firebase, terraform, etc. I've developed a lot of things (for work and pleasure) using Dart, AWS, GCP, Firebase, terraform, etc. However, I don't fully understand computers. I think there is something I can do once I understand it.
 By understanding it, I can improve Japan in some small way, and I think I can save something. But I don't know the reality. We may be unhappy. But I felt a possibility and decided to take action. As Japanese people do not have many people who are aware of the possibility, it is necessary for the Japanese people who are aware of it to take action. . I feel a little bit of a sense of mission.
 And when you understand, to some extent, what you will make of this world, what you can make of it, what you will feel. I want to know if I'm going to (Do you make any products for your company or do you work hard for charity? That remains to be seen.)
 This project does not end with this repository. There are 5 steps to follow.
 
 JP
+
 私は今までNASM、C, C++, Swift, Kotlin, Golang, Rust, Dart, AWS, GCP, Firebase, terraform, etc.. を使用して多くの（仕事や趣味）開発してきました。しかしながら完全にコンピューターを理解していません。理解した先にできる何かがあると思っています。
 理解することによって少なからず日本をよくできるはずですし、なにかを救えるはずです。だが実際の所は分かりません。不幸になるかもしれません。ですが可能性を感じたので行動することにしました。日本人は当事者意識を持つ人間が少ないので、それに気づいた日本人がやらなければなりません。少なからず使命感は感じています。
 そしてある程度理解した暁に自分がこの世界のために 何を作るのか 何を作れるのか 何を感じるのか を知りたいのです。(自分の会社で何かプロダクトを作るのか、それとも慈善活動に励むのか？それはまだ分かりません)
@@ -13,6 +15,7 @@ JP
 
 # What is FPGA
 EN
+
 FPGA stands for field programmable gate array, a chipset that contains a lookup table that can be programmed to allow digital circuitry to be implemented (in essence, understandably, it can also be used to build a CPU)
 Everyone knows the main vendor `Intel`.
 Tumor development languages include `VHDL` and `Verilog`. Verilog is similar to C and VHDL is similar to the Ada format.
@@ -20,6 +23,7 @@ FPGAs are not (usually) programmed in a high-level language such as C / C++, Pyt
 We will use `Verilog` in this project because we chose `verilog`. Because we use the `Verilator` (Hardware Simulator)
 
 JP
+
 FPGAはフィールドプログラマブルゲートアレイの略であり、デジタル回路を実装できるようにプログラムできるルックアップテーブルを含むチップセット（要するに理解するとCPUを構築することも可能である）
 主なベンダーはみんなが知ってる `Intel`
 腫瘍開発言語は `VHDL` や `Verilog` があげられます。. VerilogはCに似ているしVHDLはAdaのフォーマットに似ているのが特徴
@@ -28,34 +32,38 @@ FPGAは（通常）C / C++, Pythonなどの高水準言語でプログラムせ�
 
 # What to do
 EN
+
 - Simple LED lighting
 - UART implementation
+
 JP
+
 - 簡単なLED点灯
 - UARTの実装
 
 # Setup
 EN
+
 This time, instead of running it on actual hardware, we'll run it on a simulator!
 If you want to run it on your hardware, I recommend the following boards
 - DE10-Nano with Intel Cyclone V FPGA https://www. terasic.com.tw/cgi-bin/page/archive.pl? Language=English&No=1046
 - Arty A7 using Xilinx's Artix-7 FPGA https://store. digilentinc.com/arty-a7-artix-7-fpga- development-board-for-makers-and-hobbyists/
 
-⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
-⚠️ Cyclone V has an ARM core embedded in it, but Artix-7 does not have an ARM core I'm not here  ⚠️
-⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
+⚠️注意
+Cyclone V has an ARM core embedded in it, but Artix-7 does not have an ARM core I'm not here
+
 If you want a cheaper board, click here ◉
 https://tinyfpga.com/
 
 JP
+
 今回は実際のハードウェアの上で実行するのではなく、シュミレーターの上で実行します
 ハードの上で実行したい人は以下のボードがオススメです
 - Intel Cyclone V FPGA 使用の DE10-Nano https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=1046
 - XilinxのArtix-7 FPGA 使用の Arty A7 https://store.digilentinc.com/arty-a7-artix-7-fpga-development-board-for-makers-and-hobbyists/
 
-⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
-⚠️ Cyclone VにはARMコアが組み込まれていますがArtix-7には組み込まれていません ⚠️
-⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
+⚠️注意
+Cyclone VにはARMコアが組み込まれていますがArtix-7には組み込まれていません 
 
 もっと安価なボードが欲しい人はこちらから◉
 https://tinyfpga.com/ 
