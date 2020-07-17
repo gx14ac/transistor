@@ -50,10 +50,11 @@ If you want to run it on your hardware, I recommend the following boards
 - DE10-Nano with Intel Cyclone V FPGA https://www.terasic.com.tw/cgi-bin/page/archive.pl? Language=English&No=1046
 - Arty A7 using Xilinx's Artix-7 FPGA https://store.digilentinc.com/arty-a7-artix-7-fpga- development-board-for-makers-and-hobbyists/
 
-⚠️caution
+⚠️ caution
 Cyclone V & Intel MAX 10 has an ARM core embedded in it, but Artix-7 does not have an ARM core I'm not here
 
 If you want a cheaper board, click here ◉
+
 https://tinyfpga.com/
 
 JP
@@ -64,10 +65,11 @@ JP
 - DE10-Nano Intel Cyclone V FPGA ベース DE10-Nano https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=1046
 - Arty A7 https://store.digilentinc.com/arty-a7-artix-7-fpga-development-board-for-makers-and-hobbyists/
 
-⚠️注意
+⚠️ 注意
 Cyclone VとIntel MAX 10にはARMコアが組み込まれていますがArtix-7には組み込まれていません 
 
 もっと安価なボードが欲しい人はこちらから◉
+
 https://tinyfpga.com/ 
 
 ## for Mac
@@ -108,7 +110,7 @@ $ sudo make install
 I'm currently using Mac OS.
 Keep in mind that we will be updating the environment to Linux(Ubuntu or Arch) soon (the content of the README may change)
 
-# 5 step
+# STEP
 1. Transitor <- I'm here!!
 2. Processor
     - DE10-lite   
