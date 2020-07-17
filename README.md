@@ -49,7 +49,7 @@ If you want to run it on your hardware, I recommend the following boards
 - DE10-Nano with Intel Cyclone V FPGA https://www. terasic.com.tw/cgi-bin/page/archive.pl? Language=English&No=1046
 - Arty A7 using Xilinx's Artix-7 FPGA https://store. digilentinc.com/arty-a7-artix-7-fpga- development-board-for-makers-and-hobbyists/
 
-⚠️注意
+⚠️caution
 Cyclone V has an ARM core embedded in it, but Artix-7 does not have an ARM core I'm not here
 
 If you want a cheaper board, click here ◉
