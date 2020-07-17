@@ -46,11 +46,12 @@ EN
 
 This time, instead of running it on actual hardware, we'll run it on a simulator!
 If you want to run it on your hardware, I recommend the following boards
-- DE10-Nano with Intel Cyclone V FPGA https://www. terasic.com.tw/cgi-bin/page/archive.pl? Language=English&No=1046
-- Arty A7 using Xilinx's Artix-7 FPGA https://store. digilentinc.com/arty-a7-artix-7-fpga- development-board-for-makers-and-hobbyists/
+- DE10-lite with Intel MAX 10 https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=1021
+- DE10-Nano with Intel Cyclone V FPGA https://www.terasic.com.tw/cgi-bin/page/archive.pl? Language=English&No=1046
+- Arty A7 using Xilinx's Artix-7 FPGA https://store.digilentinc.com/arty-a7-artix-7-fpga- development-board-for-makers-and-hobbyists/
 
 ⚠️caution
-Cyclone V has an ARM core embedded in it, but Artix-7 does not have an ARM core I'm not here
+Cyclone V & Intel MAX 10 has an ARM core embedded in it, but Artix-7 does not have an ARM core I'm not here
 
 If you want a cheaper board, click here ◉
 https://tinyfpga.com/
@@ -59,11 +60,12 @@ JP
 
 今回は実際のハードウェアの上で実行するのではなく、シュミレーターの上で実行します
 ハードの上で実行したい人は以下のボードがオススメです
-- Intel Cyclone V FPGA 使用の DE10-Nano https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=1046
-- XilinxのArtix-7 FPGA 使用の Arty A7 https://store.digilentinc.com/arty-a7-artix-7-fpga-development-board-for-makers-and-hobbyists/
+- DE10-lite Intel MAX 10 ベース https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=1021
+- DE10-Nano Intel Cyclone V FPGA ベース DE10-Nano https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=1046
+- Arty A7 https://store.digilentinc.com/arty-a7-artix-7-fpga-development-board-for-makers-and-hobbyists/
 
 ⚠️注意
-Cyclone VにはARMコアが組み込まれていますがArtix-7には組み込まれていません 
+Cyclone VとIntel MAX 10にはARMコアが組み込まれていますがArtix-7には組み込まれていません 
 
 もっと安価なボードが欲しい人はこちらから◉
 https://tinyfpga.com/ 
