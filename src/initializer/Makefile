@@ -1,6 +1,6 @@
 NAME = init
 
-sim: $(NAME)_tb.vcd
+simulator: $(NAME)_tb.vcd
 	    
 
 $(NAME)_tb.vcd: $(NAME).v $(NAME)_tb.v
