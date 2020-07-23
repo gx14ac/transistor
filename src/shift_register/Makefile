@@ -1,9 +1,10 @@
-NAME = init
+NAME = shift4
+DEP = prescaler.v
 
 simulator: $(NAME)_tb.vcd
 	    
 
-$(NAME)_tb.vcd: $(NAME).v $(NAME)_tb.v
+$(NAME)_tb.vcd: $(NAME).v $(DEP) $(NAME)_tb.v
 
 	iverilog $^ -o $(NAME)_tb.out
 
