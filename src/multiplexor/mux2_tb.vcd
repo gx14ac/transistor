@@ -1,0 +1,156 @@
+$date
+	Fri Jul 24 14:59:11 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module mux2_tb $end
+$var wire 4 ! data [3:0] $end
+$var reg 1 " clk $end
+$scope module dut $end
+$var wire 1 " clk $end
+$var wire 4 # val0 [3:0] $end
+$var wire 4 $ val1 [3:0] $end
+$var wire 1 % sel $end
+$var reg 4 & data [3:0] $end
+$scope module PRES $end
+$var wire 1 " clk_in $end
+$var wire 1 % clk_out $end
+$var reg 1 ' count $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0'
+b1010 &
+0%
+b101 $
+b1010 #
+0"
+b1010 !
+$end
+#1
+b101 !
+b101 &
+1%
+1'
+1"
+#2
+0"
+#3
+b1010 !
+b1010 &
+0%
+0'
+1"
+#4
+0"
+#5
+b101 !
+b101 &
+1%
+1'
+1"
+#6
+0"
+#7
+b1010 !
+b1010 &
+0%
+0'
+1"
+#8
+0"
+#9
+b101 !
+b101 &
+1%
+1'
+1"
+#10
+0"
+#11
+b1010 !
+b1010 &
+0%
+0'
+1"
+#12
+0"
+#13
+b101 !
+b101 &
+1%
+1'
+1"
+#14
+0"
+#15
+b1010 !
+b1010 &
+0%
+0'
+1"
+#16
+0"
+#17
+b101 !
+b101 &
+1%
+1'
+1"
+#18
+0"
+#19
+b1010 !
+b1010 &
+0%
+0'
+1"
+#20
+0"
+#21
+b101 !
+b101 &
+1%
+1'
+1"
+#22
+0"
+#23
+b1010 !
+b1010 &
+0%
+0'
+1"
+#24
+0"
+#25
+b101 !
+b101 &
+1%
+1'
+1"
+#26
+0"
+#27
+b1010 !
+b1010 &
+0%
+0'
+1"
+#28
+0"
+#29
+b101 !
+b101 &
+1%
+1'
+1"
+#30
+0"

@@ -15,10 +15,12 @@ prescaler #(.N(NP))
     .clk_out(clk_pres)
   );
 
+// 立ち上がりエッジ時
 always @(posedge(clk_pres)) begin
   load_shift <= 1;
 end
 
+// 立ち上がりエッジ時
 always @(posedge(clk_pres)) begin
   if (load_shift == 0)
     data <= INI;
