@@ -110,12 +110,11 @@ $ sudo make install
 I'm currently using Mac OS.
 Keep in mind that we will be updating the environment to Linux(Ubuntu or Arch) soon (the content of the README may change)
 
-# STEP
+# 5STEP
 1. Transitor <- I'm here!!
 2. Processor
-    - DE10-lite   
-    - verilog, DE10-lite 
-    - Risc-V 32bit CPU
+    - ARM7 32bit CPU (verilog, python)
+    - bootrom
 3. Compiler
     - Haskell C Compiler.
     - Linker, libc + malloc, ethernet controller, boot loader
