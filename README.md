@@ -111,12 +111,12 @@ I'm currently using Mac OS.
 Keep in mind that we will be updating the environment to Linux(Ubuntu or Arch) soon (the content of the README may change)
 
 # 5STEP
-1. Transitor <- I'm here!!
+1. Transitor <- here!!
 2. Processor
-    - ARM7 32bit CPU (verilog, python)
-    - bootrom
+    - ARM7 32bit CPU (verilog)
+    - bootrom(assembler)
 3. Compiler
-    - Haskell C Compiler.
+    - C Compiler with Haskell
     - Linker, libc + malloc, ethernet controller, boot loader
 4. OS
     - MMU, like a Unix, 
