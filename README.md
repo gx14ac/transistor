@@ -1,18 +1,3 @@
-# Why?
-EN
-
-I've been a NASM, C, C++, Swift, Kotlin, Golang, Rust, Dart, AWS, GCP, Firebase, terraform, etc. I've developed a lot of things (for work and pleasure) using Dart, AWS, GCP, Firebase, terraform, etc. However, I don't fully understand computers. I think there is something I can do once I understand it.
-By understanding it, I can improve Japan in some small way, and I think I can save something. But I don't know the reality. We may be unhappy. But I felt a possibility and decided to take action. As Japanese people do not have many people who are aware of the possibility, it is necessary for the Japanese people who are aware of it to take action. . I feel a little bit of a sense of mission.
-And when you understand, to some extent, what you will make of this world, what you can make of it, what you will feel. I want to know if I'm going to (Do you make any products for your company or do you work hard for charity? That remains to be seen.)
-This project does not end with this repository. There are 5 steps to follow.
-
-JP
-
-私は今までNASM、C, C++, Swift, Kotlin, Golang, Rust, Dart, AWS, GCP, Firebase, terraform, etc.. を使用して多くの（仕事や趣味）開発をしてきました。しかしながら完全にコンピューターを理解していません。理解した先にできる何かがあると思っています。
-理解することによって少なからず日本をよくできるはずですし、なにかを救えるはずです。だが実際の所は分かりません。不幸になるかもしれません。ですが可能性を感じたので行動することにしました。日本人は当事者意識を持つ人間が少ないので、それに気づいた日本人がやらなければなりません。少なからず使命感は感じています。
-そしてある程度理解した暁に自分がこの世界のために 何を作るのか 何を作れるのか 何を感じるのか を知りたいのです。(自分の会社で何かプロダクトを作るのか、それとも慈善活動に励むのか？それはまだ分かりません)
-尚、このプロジェクトはこのレポジトリで終わりません。大まかには5つのステップを踏んでいく予定です。
-
 # What is FPGA
 EN
 
@@ -111,21 +96,3 @@ $ sudo make install
 # ⚠️caution
 I'm currently using Mac OS.
 Keep in mind that we will be updating the environment to Linux(Ubuntu or Arch) soon (the content of the README may change)
-
-# STEP
-1. Transitor <- here!!
-2. Processor
-    - ARM8 CPU. Simple Pipeline (verilog)
-    - bootrom(assembler)
-3. Compiler
-    - C Compiler with Haskell
-    - Linker, libc + malloc, ethernet controller, boot loader
-4. OS
-    - MMU, like a Unix, 
-    - User Space Thread(open, read, write, close, fork, execve, wait, sleep, exit, mmap, munmap, mprotect), 
-    - FAT, SD, user space program(cat, ls, shell)
-5. Browser
-    - TCP Stack
-    - telnetd, 
-    - dynamic linking
-    - ANSI + Terminal = Text base Browser
